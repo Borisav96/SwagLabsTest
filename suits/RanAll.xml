@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll" parallel="none">
+    <test name="Empty Username Field LogIn" >
+        <classes>
+            <class name="TEST.emptyUserNameFieldLogInTest" />
+        </classes>
+    </test>
+    <test name="Valid LogIn" >
+        <classes>
+            <class name="TEST.ValidLogInTest" />
+        </classes>
+    </test>
+    <test name="LogOutTest" >
+        <classes>
+            <class name="TEST.LogOutTest" />
+        </classes>
+    </test>
+    <test name="Sort Products By Price From High To Low" >
+        <classes>
+            <class name="TEST.SortProductsByPriceHighToLowTest" />
+        </classes>
+    </test>
+    <test name="Checkout" >
+        <classes>
+            <class name="TEST.CheckoutTest" />
+        </classes>
+    </test>
+</suite>
